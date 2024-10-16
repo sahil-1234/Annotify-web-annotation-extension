@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Annotate Page</h3>
+  
+  <!-- Highlight Button -->
+  <label for="selected-text">Selected Text:</label>
+  <input type="text" id="selected-text" placeholder="Enter text to highlight">
+  <button id="highlight-btn">Highlight Text</button>
+  
+  <hr>
+
+  <!-- Comment Section -->
+  <label for="comment-text">Add Comment:</label>
+  <textarea id="comment-text" placeholder="Enter your comment"></textarea>
+
+  <!-- Color Picker -->
+  <label for="comment-color">Comment Color:</label>
+  <input type="color" id="comment-color" value="#FFFFE0">
+
+  <!-- Image Upload -->
+  <label for="image-upload">Attach Image:</label>
+  <input type="file" id="image-upload">
+
+  <button id="comment-btn">Add Comment</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
