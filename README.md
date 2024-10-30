@@ -3,7 +3,7 @@
 
 **Web Page Annotations** is a Chrome extension that allows users to annotate web pages by highlighting text and adding colorful comments. The annotations are synced with MongoDB Atlas, ensuring that your notes are preserved even after refreshing the page or revisiting the website.
 
-## Feature
+## Features
 - Highlight text on any web page.
 - Add colorful comments with optional images.
 - Annotations are synced with MongoDB Atlas for persistence across sessions.
